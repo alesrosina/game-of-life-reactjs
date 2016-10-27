@@ -1,8 +1,12 @@
-.game {
-  display: flex;
-  flex-direction: row;
-}
-
 .game-board {
   width: 800px;
+  padding-left: 1px;  
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.game-board:after {
+  content: "";
+  display: table;
+  clear: both;
 }
