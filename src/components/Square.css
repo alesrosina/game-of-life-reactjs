@@ -1,0 +1,21 @@
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  height: 16px;
+  width: 16px;
+  padding: 0;
+  margin: -1px 0 0 -1px;
+}
+
+.square:focus {
+	outline: none;
+}
+
+.square:nth-of-type(50n+1) {
+	clear: left; 
+}
+
+.on {
+  background: #999;
+}
